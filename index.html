@@ -4,50 +4,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Oh My Food</title>
     <script src="https://kit.fontawesome.com/19d00b718c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="public/css/style.css">
   </head>
   <body>
-    <header>
-      <img src="img/logo/ohmyfood@2x.svg" alt="Logo Oh My Food" />
+    <header class="header">
+      <nav class="nav">
+        <img src="img/logo/ohmyfood@2x.svg" alt="Logo Oh My Food" />
+      </nav>
+      <div class="header__localisation">
+        <i class="fas fa-map-marker-alt"></i><span>Paris, Belleville</span>
+      </div>
+      <section class="welcome">
+        <h1 class="welcome__title">Réservez le menu qui vous convient</h1>
+        <p class="welcome__text">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+        <button class="btn">Explorer nos restaurants</button>
+      </section>
     </header>
     
     <main>
-      <div>
-        <i class="fas fa-map-marker-alt"></i><span>Paris, Belleville</span>
-      </div>
-      <section>
-        <h1>Réservez le menu qui vous convient</h1>
-        <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-        <button>Explorer nos restaurants</button>
-      </section>
-
-      <section>
+      <section class="functioning">
         <h2>Fonctionnement</h2>
-        <ul>
+        <ul class="functioning__list">
           <li><i class="fas fa-mobile-alt"></i><span>Choisissez un restaurant</span></li>
           <li><i class="fas fa-list"></i><span>Composez votre menu</span></li>
           <li><i class="fas fa-store"></i><span>Dégustez au restaurant</span></li>
         </ul>
       </section>
 
-      <article>
-        <h2>Restaurants</h2>
+      <article class="restaurant">
+        <h2 class="restaurant__title">Restaurants</h2>
         <!-- WITH SPAN NEW -->
-        <a>
-          <figure>
-            <img src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Repas assiette" />
-            <span>Nouveau</span>
-            <figcaption>
+        <a href="menu1.html" class="card">
+          <figure class="card__figure">
+            <img class="card__figure--img" src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Repas assiette" />
+            <span class="card__figure--new">Nouveau</span>
+            <figcaption class="card__figcaption">
               <h3>La palette du go&ucirc;t</h3>
               <p>Ménilmontant</p>
               <i class="far fa-heart"></i>
             </figcaption>
           </figure>
         </a>
-        <a>
-          <figure>
-            <img src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Repas assiette luxe" />
-            <span>Nouveau</span>
-            <figcaption>
+        <a href="menu2.html" class="card">
+          <figure class="card__figure">
+            <img class="card__figure--img" src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Repas assiette luxe" />
+            <span class="card__figure--new">Nouveau</span>
+            <figcaption class="card__figcaption">
               <h3>La note enchant&eacute;e</h3>
               <p>Charonne</p>
               <i class="far fa-heart"></i>
@@ -55,20 +57,20 @@
           </figure>
         </a>
         <!-- WHITOUT SPAN NEW-->
-        <a>
-          <figure>
-            <img src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Repas assiette luxe" />
-            <figcaption>
+        <a href="menu3.html" class="card">
+          <figure class="card__figure">
+            <img class="card__figure--img" src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Repas assiette luxe" />
+            <figcaption class="card__figcaption">
               <h3>&Agrave; la fran&ccedil;aise</h3>
               <p>Cit&eacute; Rouge</p>
               <i class="far fa-heart"></i>
             </figcaption>
           </figure>
         </a>
-        <a>
-          <figure>
-            <img src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Repas assiette luxe" />
-            <figcaption>
+        <a href="menu4.html" class="card">
+          <figure class="card__figure">
+            <img class="card__figure--img" src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Repas assiette luxe" />
+            <figcaption class="card__figcaption">
               <h3>Le d&eacute;lice des sens</h3>
               <p>Folie-M&eacute;ricourt</p>
               <i class="far fa-heart"></i>
@@ -78,13 +80,13 @@
       </article>
     </main>
     
-    <footer>
+    <footer class="footer">
       <img src="img/logo/ohmyfood@2x.svg" alt="Logo Oh My Food" />
       <ul>
-        <li><a><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
-        <li><a><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
-        <li><a>Mentions l&eacute;gales</a></li>
-        <li><a>Contact</a></li>
+        <li><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
+        <li><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
+        <li><a href="#">Mentions l&eacute;gales</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </footer>
   </body>

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /** test **/
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px;
+  color: #FFF;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__localisation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 0;
+  background: #CECECE;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  background: #e8e8e8;
+}
+.welcome__title {
+  width: 60%;
+  margin: 10px;
+  text-align: center;
+}
+.welcome__text {
+  width: 70%;
+  margin: 10px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+}
+
+.functioning {
+  padding: 20px 20px;
+}
+.functioning__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant {
+  padding: 20px 20px;
+  background: #e8e8e8;
+}
+.restaurant__title {
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  margin: 1.5em 0;
+}
+.card__figure {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.card__figure--img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.card__figure--new {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 5px 15px;
+  color: #4acbab;
+  background: #99E2D0;
+}
+.card__figcaption {
+  padding: 10px;
+  background: #FFF;
+  border-radius: 0 0 15px 15px;
+}
+
+.footer {
+  background: #353535;
+  color: #FFF;
+  padding: 20px 20px;
+}
+.footer li {
+  margin: 5px 0;
+}
+.footer .fas {
+  margin-right: 5px;
+  width: 1.2em;
+  font-size: 0.7em;
+}
+
+/*# sourceMappingURL=style.css.map */
