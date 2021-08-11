@@ -3,92 +3,130 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Oh My Food - À la française</title>
+    <script src="https://kit.fontawesome.com/19d00b718c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="public/css/style.css">
   </head>
   <body>
-    <header>
-      <i class="fas fa-arrow-left"></i> <img src="img/logo/ohmyfood@2x.svg" alt="Logo Oh My Food" />
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html"><i class="fas fa-arrow-left"></i></a> <img src="img/logo/ohmyfood@2x.svg" alt="Logo Oh My Food" class="nav__img"/>
+      </nav>
+      <img src="img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Repas assiettes" class="header__img" />      
     </header>
     
     <main>
-      <header>
-        <img src="img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Repas assiettes" />
-      </header>
-      <section>
-        <h2>À la française</h2>
+      <section class="menu">
+        <h2 class="menu__title">À la française <i class="far fa-heart" aria-hidden="true"></i></h2>
         <!-- ENTREES -->
-        <section>
-          <h3>ENTR&Eacute;ES</h3>
+        <section class="cardMenu">
+          <h3 class="cardMenu__title">ENTR&Eacute;ES</h3>
           <hr>
-          <article>
-            <h4>Tartare de poulpe acidulé</h4>
-            <p>Aux zestes d'orange</p>
-            <div>25€</div>
-            <div><i class="fas fa-check-circle"></i></div>
+          <article class="cardList">
+            <div class="cardName">
+              <h4>Tartare de poulpe acidulé</h4>
+              <p>Aux zestes d'orange</p>
+            </div>
+            <div class="cardInformation">
+              <div class="cardInformation__price">25€</div>
+              <div class="cardInformation--check"><i class="fas fa-check-circle"></i></div>
+            </div>
           </article>
-          <article>
-            <h4>Velouté de légumes d'antan</h4>
-            <p>Carotte, panais, topinambour</p>
-            <div>35€</div>
-            <div><i class="fas fa-check-circle"></i></div>
+          <article class="cardList">
+            <div class="cardName">
+              <h4>Velouté de légumes d'antan</h4>
+              <p>Carotte, panais, topinambour</p>
+            </div>
+            <div class="cardInformation">
+              <div class="cardInformation__price">35€</div>
+              <div class="cardInformation--check"><i class="fas fa-check-circle"></i></div>
+            </div>
           </article>
-          <article>
-            <h4>Soupe à l'oignon</h4>
-            <p>Revisitée</p>
-            <div>20€</div>
-            <div><i class="fas fa-check-circle"></i></div>
+          <article class="cardList">
+            <div class="cardName">
+              <h4>Soupe à l'oignon</h4>
+              <p>Revisitée</p>
+            </div>
+            <div class="cardInformation">
+              <div class="cardInformation__price">20€</div>
+              <div class="cardInformation--check"><i class="fas fa-check-circle"></i></div>
+            </div>
           </article>
         </section>
         <!-- PLATS -->
-        <section>
-          <h3>PLATS</h3>
+        <section class="cardMenu">
+          <h3 class="cardMenu__title">PLATS</h3>
           <hr>
-          <article>
-            <h4>Coquilles Saint-Jacques</h4>
-            <p>Accompagnées d'une purée de panais</p>
-            <div>40€</div>
-            <div><i class="fas fa-check-circle"></i></div>
+          <article class="cardList">
+            <div class="cardName">
+              <h4>Coquilles Saint-Jacques</h4>
+              <p>Accompagnées d'une purée de panais</p>
+            </div>
+            <div class="cardInformation">
+              <div class="cardInformation__price">40€</div>
+              <div class="cardInformation--check"><i class="fas fa-check-circle"></i></div>
+            </div>
           </article>
-          <article>
-            <h4>Magret de canard</h4>
-            <p>Et parmentier de pommes de terre</p>
-            <div>35€</div>
-            <div><i class="fas fa-check-circle"></i></div>
+          <article class="cardList">
+            <div class="cardName">
+              <h4>Magret de canard</h4>
+              <p>Et parmentier de pommes de terre</p>
+            </div>
+            <div class="cardInformation">
+              <div class="cardInformation__price">35€</div>
+              <div class="cardInformation--check"><i class="fas fa-check-circle"></i></div>
+            </div>
           </article>
-          <article>
-            <h4>Pigeonneau d’Ille-et-Vilaine</h4>
-            <p>Sur son lit de gnocchis aux légumes</p>
-            <div>44€</div>
-            <div><i class="fas fa-check-circle"></i></div>
+          <article class="cardList">
+            <div class="cardName">
+              <h4>Pigeonneau d’Ille-et-Vilaine</h4>
+              <p>Sur son lit de gnocchis aux légumes</p>
+            </div>
+            <div class="cardInformation">
+              <div class="cardInformation__price">44€</div>
+              <div class="cardInformation--check"><i class="fas fa-check-circle"></i></div>
+            </div>
           </article>
         </section>
         <!-- DESSERTS -->
-        <section>
-          <h3>DESSERTS</h3>
+        <section class="cardMenu">
+          <h3 class="cardMenu__title">DESSERTS</h3>
           <hr>
-          <article>
-            <h4>Pétales de violettes glacés</h4>
-            <p>Et purée de noisettes</p>
-            <div>18€</div>
-            <div><i class="fas fa-check-circle"></i></div>
+          <article class="cardList">
+            <div class="cardName">
+              <h4>Pétales de violettes glacés</h4>
+              <p>Et purée de noisettes</p>
+            </div>
+            <div class="cardInformation">
+              <div class="cardInformation__price">18€</div>
+              <div class="cardInformation--check"><i class="fas fa-check-circle"></i></div>
+            </div>
           </article>
-          <article>
-            <h4>Fondant au chocolat</h4>
-            <p>Revisité</p>
-            <div>22€</div>
-            <div><i class="fas fa-check-circle"></i></div>
+          <article class="cardList">
+            <div class="cardName">
+              <h4>Fondant au chocolat</h4>
+              <p>Revisité</p>
+            </div>
+            <div class="cardInformation">
+              <div class="cardInformation__price">22€</div>
+              <div class="cardInformation--check"><i class="fas fa-check-circle"></i></div>
+            </div>
           </article>
-          <article>
-            <h4>Millefeuille croustillant</h4>
-            <p>Myrtilles et pâte d’amande</p>
-            <div>23€</div>
-            <div><i class="fas fa-check-circle"></i></div>
+          <article class="cardList">
+            <div class="cardName">
+              <h4>Millefeuille croustillant</h4>
+              <p>Myrtilles et pâte d’amande</p>
+            </div>
+            <div class="cardInformation">
+              <div class="cardInformation__price">23€</div>
+              <div class="cardInformation--check"><i class="fas fa-check-circle"></i></div>
+            </div>
           </article>
         </section>
-        <button>Commander</button>
+        <button class="btn">Commander</button>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <img src="img/logo/ohmyfood@2x.svg" alt="Logo Oh My Food" />
       <ul>
         <li><a><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
