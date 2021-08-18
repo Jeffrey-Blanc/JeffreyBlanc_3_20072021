@@ -147,11 +147,50 @@ li {
 .functioning {
   padding: 20px 20px;
 }
-.functioning__list {
+
+.functioning-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 1.2em;
+}
+
+.bullet-list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #CECECE;
+  margin: 10px 0;
+  padding: 25px 15px;
+  border-radius: 15px;
+}
+.bullet-list::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9356DC;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 5px;
+}
+.bullet-list--01::before {
+  content: "1";
+}
+.bullet-list--02::before {
+  content: "2";
+}
+.bullet-list--03::before {
+  content: "3";
+}
+.bullet-list__icon {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
 }
 
 .restaurant {

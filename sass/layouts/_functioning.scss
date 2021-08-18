@@ -1,9 +1,48 @@
 .functioning {
   padding: 20px 20px;
-  &__list{
+}
+
+.functioning-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.bullet-list{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: $color-gray;
+  margin: 10px 0;
+  padding: 25px 15px;
+  border-radius: 15px;
+  &::before{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: $color-primary;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+  }
+  &--01::before{
+    content: "1";
+  }
+  &--02::before{
+    content: "2";
+  }
+  &--03::before{
+    content: "3";
+  }
+  &__icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
   }
 }
