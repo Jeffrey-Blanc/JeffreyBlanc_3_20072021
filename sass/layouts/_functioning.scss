@@ -29,6 +29,9 @@
     position: absolute;
     left: 5px;
   }
+  &:hover{
+    background: lighten($color-primary, $amount: 35%);
+  }
   &--01::before{
     content: "1";
   }
@@ -44,5 +47,6 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
+    color: $color-primary;
   }
 }

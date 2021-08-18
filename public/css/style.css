@@ -181,6 +181,9 @@ li {
   position: absolute;
   left: 5px;
 }
+.bullet-list:hover {
+  background: #f2eafb;
+}
 .bullet-list--01::before {
   content: "1";
 }
@@ -196,6 +199,7 @@ li {
   justify-content: center;
   align-items: center;
   font-size: 1.2em;
+  color: #9356DC;
 }
 
 .restaurant {
