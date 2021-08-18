@@ -206,20 +206,21 @@ li {
   margin: 10px;
 }
 
-.card {
+.link-card {
   display: flex;
   margin: 1.5em 0;
 }
-.card__figure {
+
+.figure-card {
   position: relative;
   display: flex;
   flex-direction: column;
 }
-.card__figure--img {
+.figure-card__img {
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
-.card__figure--new {
+.figure-card__new {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -227,10 +228,19 @@ li {
   color: #278870;
   background: #99E2D0;
 }
-.card__figcaption {
+
+.figcaption-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 10px;
   background: #FFF;
   border-radius: 0 0 15px 15px;
+}
+.figcaption-card__icon {
+  position: absolute;
+  right: 15px;
+  font-size: 1.5em;
 }
 
 .footer {

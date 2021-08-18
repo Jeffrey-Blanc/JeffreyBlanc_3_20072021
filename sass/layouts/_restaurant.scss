@@ -6,29 +6,39 @@
   }
 }
 
-.card {
+.link-card {
   display: flex;
   margin: 1.5em 0;
-  &__figure {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    &--img {
-      width: 100%;
-      border-radius: 15px 15px 0 0;
-    }
-    &--new {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      padding: 5px 15px;
-      color: darken($color-tertiary, 40%);
-      background: $color-tertiary;
-    }
+}
+
+.figure-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  &__img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
   }
-  &__figcaption {
-    padding: 10px;
-    background: #FFF;
-    border-radius: 0 0 15px 15px;
+  &__new {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 5px 15px;
+    color: darken($color-tertiary, 40%);
+    background: $color-tertiary;
+  }
+}
+
+.figcaption-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background: #FFF;
+  border-radius: 0 0 15px 15px;
+  &__icon {
+    position: absolute;
+    right: 15px;
+    font-size: 1.5em;
   }
 }
