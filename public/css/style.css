@@ -1,8 +1,13 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("../../public/fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /** test **/
+  font-family: "Roboto";
 }
 
 a {
@@ -36,7 +41,7 @@ li {
   justify-content: center;
   width: 100%;
   padding: 15px 0;
-  background: #CECECE;
+  background: #f6f6f6;
 }
 .header__img {
   width: 100%;
@@ -49,7 +54,7 @@ li {
   align-items: center;
   width: 100%;
   padding: 15px 0;
-  background: #e8e8e8;
+  background: white;
 }
 .welcome__title {
   width: 60%;
@@ -160,7 +165,7 @@ li {
   display: flex;
   justify-content: center;
   width: 100%;
-  background: #CECECE;
+  background: #f6f6f6;
   margin: 10px 0;
   padding: 25px 15px;
   border-radius: 15px;
@@ -195,7 +200,7 @@ li {
 
 .restaurant {
   padding: 20px 20px;
-  background: #e8e8e8;
+  background: white;
 }
 .restaurant__title {
   margin: 10px;
@@ -240,6 +245,9 @@ li {
   margin-right: 5px;
   width: 1.2em;
   font-size: 0.7em;
+}
+.footer__title {
+  font-family: "Shrikhand";
 }
 
 /*# sourceMappingURL=style.css.map */
