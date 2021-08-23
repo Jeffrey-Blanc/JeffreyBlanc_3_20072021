@@ -23,14 +23,19 @@
     justify-content: center;
     align-items: center;
     background: $color-primary;
+    color: #FFF;
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    font-size: 0.8em;
     position: absolute;
     left: 5px;
   }
   &:hover{
-    background: lighten($color-primary, $amount: 35%);
+    background: lighten($color-primary, $amount: 40%);
+    & .bullet-list__icon--color {
+      color: $color-primary;
+    }
   }
   &--01::before{
     content: "1";
@@ -47,6 +52,6 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
-    color: $color-primary;
+    color: darken($color-gray, 40%);
   }
 }

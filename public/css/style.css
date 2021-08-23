@@ -175,14 +175,19 @@ li {
   justify-content: center;
   align-items: center;
   background: #9356DC;
+  color: #FFF;
   border-radius: 50%;
   width: 30px;
   height: 30px;
+  font-size: 0.8em;
   position: absolute;
   left: 5px;
 }
 .bullet-list:hover {
-  background: #f2eafb;
+  background: white;
+}
+.bullet-list:hover .bullet-list__icon--color {
+  color: #9356DC;
 }
 .bullet-list--01::before {
   content: "1";
@@ -199,7 +204,7 @@ li {
   justify-content: center;
   align-items: center;
   font-size: 1.2em;
-  color: #9356DC;
+  color: #909090;
 }
 
 .restaurant {
