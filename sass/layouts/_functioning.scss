@@ -32,7 +32,7 @@
     left: 5px;
   }
   &:hover{
-    background: lighten($color-primary, $amount: 40%);
+    background: lighten($color-primary, 35%);
     & .bullet-list__icon--color {
       color: $color-primary;
     }

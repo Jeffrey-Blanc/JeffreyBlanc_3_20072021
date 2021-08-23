@@ -184,7 +184,7 @@ li {
   left: 5px;
 }
 .bullet-list:hover {
-  background: white;
+  background: #f2eafb;
 }
 .bullet-list:hover .bullet-list__icon--color {
   color: #9356DC;
