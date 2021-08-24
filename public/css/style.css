@@ -27,11 +27,16 @@ li {
 
 .btn {
   margin: 10px auto;
-  padding: 10px;
+  padding: 15px;
+  font-size: 1.2em;
   color: #FFF;
   border: none;
   border-radius: 30px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+}
+.btn--flattened {
+  width: 50%;
+  max-width: 215px;
 }
 
 .header {
