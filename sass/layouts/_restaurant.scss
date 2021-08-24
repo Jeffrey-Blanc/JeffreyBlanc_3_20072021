@@ -24,7 +24,9 @@
     right: 15px;
     padding: 5px 15px;
     color: darken($color-tertiary, 40%);
+    font-weight: bold;
     background: $color-tertiary;
+    border-radius: 2px;
   }
 }
 

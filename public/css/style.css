@@ -254,7 +254,9 @@ li {
   right: 15px;
   padding: 5px 15px;
   color: #278870;
+  font-weight: bold;
   background: #99E2D0;
+  border-radius: 2px;
 }
 
 .figcaption-card {
