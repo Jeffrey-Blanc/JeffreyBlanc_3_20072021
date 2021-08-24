@@ -1,7 +1,5 @@
 .nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include parameter_flex($direction, center, center);
   padding: $padding-horizontale;
   width: 100%;
   &__img {

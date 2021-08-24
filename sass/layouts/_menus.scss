@@ -1,20 +1,17 @@
 .menu {
-    display: flex;
-    flex-direction: column;
+    @include parameter_flex(column, $justify-content, $align-items);
     position: relative;
     top: -50px;
     background: #CECECE;
     border-radius: 30px;
     padding: 15px 0;
     &__title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include parameter_flex($direction, center, center);
         padding: 0 20px;
         & div {
             margin: auto;
             font-size: 1.2em;
-            font-family: 'Shrikhand';
+            font-family: $font_logo_title;
             margin-left: inherit;
         }
         & .fa-heart {
@@ -35,8 +32,7 @@
 }
 
 .cardList {
-    display: flex;
-    justify-content: space-between;
+    @include parameter_flex($direction, space-between, $align-items);
     background: #FFF;
     border-radius: 6px;
     margin: 10px 0;
@@ -47,18 +43,15 @@
 }
 
 .cardInformation {
-    display: flex;
-    align-items: center;
+    @include parameter_flex($direction, $justify-content, flex-end);
     &__price {
     align-self: flex-end;
     padding: 10px 10px;
     }
     &--check {
+        @include parameter_flex($direction, center, center);
         width: 60px;
-        display: flex;
-        justify-content: center;
         height: 100%;
-        align-items: center;
         background: $color-tertiary;
         color: white;
         font-size: 1.2em;

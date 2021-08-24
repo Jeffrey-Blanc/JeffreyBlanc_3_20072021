@@ -1,10 +1,7 @@
 .header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include parameter_flex(column, $justify-content, center);
   &__localisation{
-    display: flex;
-    justify-content: center;
+    @include parameter_flex($direction, center, $align-items);
     width: 100%;
     padding: $padding-horizontale;
     background: $color-gray;
@@ -15,10 +12,7 @@
 }
 
 .welcome {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include parameter_flex(column, center, center);
   width: 100%;
   padding: $padding-horizontale;
   background: lighten($color-gray, 10%);

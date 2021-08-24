@@ -1,3 +1,6 @@
+/* Color */
+/* Font family */
+/* Flex box par defaut */
 @font-face {
   font-family: "Shrikhand";
   src: url("../../public/fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
@@ -117,18 +120,18 @@ li {
 
 .cardInformation {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 .cardInformation__price {
   align-self: flex-end;
   padding: 10px 10px;
 }
 .cardInformation--check {
-  width: 60px;
   display: flex;
   justify-content: center;
-  height: 100%;
   align-items: center;
+  width: 60px;
+  height: 100%;
   background: #99E2D0;
   color: white;
   font-size: 1.2em;
@@ -199,10 +202,10 @@ li {
   content: "3";
 }
 .bullet-list__icon {
-  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50px;
   margin: 0 auto;
   font-size: 1.2em;
   color: #909090;

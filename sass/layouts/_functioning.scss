@@ -3,25 +3,19 @@
 }
 
 .functioning-list{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include parameter_flex(column, center, center);
   font-size: 1.2em;
 }
 
 .bullet-list{
-  display: flex;
-  justify-content: center;
+  @include parameter_flex($direction, center, $align-items);
   width: 100%;
   background: $color-gray;
   margin: 10px 0;
   padding: 25px 15px;
   border-radius: 15px;
   &::before{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include parameter_flex($direction, center, center);
     background: $color-primary;
     color: #FFF;
     border-radius: 50%;
@@ -47,10 +41,8 @@
     content: "3";
   }
   &__icon {
+    @include parameter_flex($direction, center, center);
     width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
     font-size: 1.2em;
     color: darken($color-gray, 40%);

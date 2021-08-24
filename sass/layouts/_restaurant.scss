@@ -13,8 +13,7 @@
 
 .figure-card {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  @include parameter_flex(column, $justify-content, $align-items);
   &__img {
     width: 100%;
     border-radius: 15px 15px 0 0;
@@ -30,9 +29,7 @@
 }
 
 .figcaption-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @include parameter_flex(column, center, $align-items);
   padding: 10px;
   background: #FFF;
   border-radius: 0 0 15px 15px;
