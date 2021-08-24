@@ -1,6 +1,6 @@
 .restaurant {
   padding: 20px 20px;
-  background: lighten($color-gray, 10%);
+  background: $color-gray;
   &__title {
     margin: 10px;
   }

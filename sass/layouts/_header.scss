@@ -4,7 +4,7 @@
     @include parameter_flex($direction, center, $align-items);
     width: 100%;
     padding: $padding-horizontale;
-    background: $color-gray;
+    background: darken($color-gray, 5%);
   }
   &__img {
     width: 100%;
@@ -15,7 +15,7 @@
   @include parameter_flex(column, center, center);
   width: 100%;
   padding: $padding-horizontale;
-  background: lighten($color-gray, 10%);
+  background: $color-gray;
   &__title{
     width: 60%;
     margin: 10px;

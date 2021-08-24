@@ -1,8 +1,12 @@
+.main_menu {
+    background: $color-gray;
+}
+
 .menu {
     @include parameter_flex(column, $justify-content, $align-items);
     position: relative;
     top: -50px;
-    background: #CECECE;
+    background: $color-gray;
     border-radius: 30px;
     padding: 15px 0;
     &__title {
