@@ -88,20 +88,16 @@ li {
   border-radius: 30px;
   padding: 15px 0;
 }
-.menu__title {
+
+.menu_title {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-}
-.menu__title div {
-  margin: auto;
-  font-size: 1.2em;
   font-family: "Shrikhand";
-  margin-left: inherit;
 }
-.menu__title .fa-heart {
-  margin: auto;
+.menu_title__icon {
+  margin: 0 0 0 auto;
 }
 
 .cardMenu {

@@ -9,20 +9,17 @@
     background: $color-gray;
     border-radius: 30px;
     padding: 15px 0;
-    &__title {
-        @include parameter_flex($direction, center, center);
-        padding: 0 20px;
-        & div {
-            margin: auto;
-            font-size: 1.2em;
-            font-family: $font_logo_title;
-            margin-left: inherit;
-        }
-        & .fa-heart {
-            margin: auto;
-        }
+}
+
+.menu_title {
+    @include parameter_flex($direction, center, center);
+    padding: 0 20px;
+    font-family: $font_logo_title;
+    &__icon {
+        margin: 0 0 0 auto;
     }
 }
+
 
 .cardMenu {
     padding: 15px 20px;
