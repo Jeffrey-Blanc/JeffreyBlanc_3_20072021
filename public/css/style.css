@@ -148,6 +148,8 @@ li {
   align-items: center;
   padding: 15px 0;
   width: 100%;
+  box-shadow: 0px 3px 3px #c3c3c3;
+  z-index: 1;
 }
 .nav__img {
   margin: auto;
