@@ -8,6 +8,9 @@
   }
   &__img {
     width: 100%;
+    max-width: 425px;
+    max-height: 285px;
+    object-fit: cover;
   }
 }
 
