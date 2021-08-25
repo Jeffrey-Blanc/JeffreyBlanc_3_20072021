@@ -240,10 +240,15 @@ li {
   position: relative;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 .figure-card__img {
-  width: 100%;
+  /*width: 100%;*/
   border-radius: 15px 15px 0 0;
+  max-width: 335px;
+  max-height: 225px;
+  width: 335px;
+  object-fit: cover;
 }
 .figure-card__new {
   position: absolute;
