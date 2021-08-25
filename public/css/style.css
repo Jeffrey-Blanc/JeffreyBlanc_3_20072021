@@ -293,6 +293,8 @@ li {
 }
 .footer__title {
   font-family: "Shrikhand";
+  font-weight: normal;
+  font-size: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
