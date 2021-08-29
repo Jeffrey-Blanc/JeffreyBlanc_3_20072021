@@ -181,13 +181,13 @@ li {
 
 .bullet-list {
   display: flex;
-  justify-content: center;
   align-items: center;
+  /*justify-content par center*/
   position: relative;
   width: 100%;
   background: #f6f6f6;
   margin: 10px 0;
-  padding: 25px 15px;
+  padding: 25px 0;
   border-radius: 15px;
   box-shadow: 0px 3px 10px #c3c3c3;
 }
@@ -223,14 +223,13 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  margin: 0 auto;
+  width: 15px;
+  margin: 0 30px;
   font-size: 1.2em;
   color: #909090;
 }
 .bullet-list__text {
-  width: 200px;
-  margin: 0 auto;
+  font-size: 1.1em;
 }
 
 .restaurant {
