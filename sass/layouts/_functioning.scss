@@ -14,6 +14,7 @@
   margin: 10px 0;
   padding: 25px 15px;
   border-radius: 15px;
+  box-shadow: 0px 3px 10px darken($color-gray, 20%);
   &::before{
     @include parameter_flex($direction, center, center);
     background: $color-primary;
