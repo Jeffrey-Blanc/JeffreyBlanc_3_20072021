@@ -235,7 +235,7 @@ li {
   background: #f6f6f6;
 }
 .restaurant__title {
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .link-card {
@@ -250,13 +250,14 @@ li {
   display: flex;
   flex-direction: column;
   margin: auto;
+  width: 100%;
 }
 .figure-card__img {
   /*width: 100%;*/
   border-radius: 15px 15px 0 0;
-  max-width: 335px;
+  /*max-width: 335px;*/
   max-height: 225px;
-  width: 335px;
+  /*width: 335px;*/
   object-fit: cover;
 }
 .figure-card__new {
