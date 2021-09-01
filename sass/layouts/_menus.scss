@@ -14,7 +14,7 @@
 .menu_title {
     @include parameter_flex($direction, center, center);
     padding: 0 20px;
-    font-family: $font_logo_title;
+    font-family: $font_logo_title, sans-serif;
     &__icon {
         margin: 0 0 0 auto;
         cursor: pointer;

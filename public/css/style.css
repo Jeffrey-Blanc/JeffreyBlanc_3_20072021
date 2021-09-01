@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   /** test **/
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -97,7 +97,7 @@ li {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  font-family: "Shrikhand";
+  font-family: "Shrikhand", sans-serif;
 }
 .menu_title__icon {
   margin: 0 0 0 auto;
@@ -301,7 +301,7 @@ li {
   font-size: 0.7em;
 }
 .footer__title {
-  font-family: "Shrikhand";
+  font-family: "Shrikhand", sans-serif;
   font-weight: normal;
   font-size: 1em;
 }
