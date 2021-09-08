@@ -6,6 +6,7 @@
   border: none;
   border-radius: 30px;
   background: linear-gradient(to bottom right, $color-secondary, $color-primary);
+  box-shadow: 0 0 1rem darken($color-gray, 20%);
   &--flattened {
     width: 50%;
     max-width: 215px;

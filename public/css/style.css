@@ -25,6 +25,10 @@ li {
   list-style: none;
 }
 
+.fas.heart1 {
+  display: none;
+}
+
 .btn {
   margin: 10px auto;
   padding: 15px;
@@ -33,6 +37,7 @@ li {
   border: none;
   border-radius: 30px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  box-shadow: 0 0 1rem #c3c3c3;
 }
 .btn--flattened {
   width: 50%;
@@ -44,18 +49,27 @@ li {
   flex-direction: column;
   align-items: center;
 }
-.header__localisation {
+.header__img {
+  width: 100%;
+  /*max-width: 425px;*/
+  max-height: 285px;
+  object-fit: cover;
+}
+
+.localisation {
   display: flex;
   justify-content: center;
   width: 100%;
   padding: 15px 0;
   background: #e9e9e9;
 }
-.header__img {
-  width: 100%;
-  /*max-width: 425px;*/
-  max-height: 285px;
-  object-fit: cover;
+.localisation__icon {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.localisation__txt {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .welcome {
@@ -68,14 +82,16 @@ li {
   background: #f6f6f6;
 }
 .welcome__title {
-  width: 60%;
+  width: 100%;
   margin: 10px;
   text-align: center;
+  font-size: 1.7rem;
 }
 .welcome__text {
-  width: 70%;
+  width: 100%;
   margin: 10px;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .main_menu {
@@ -223,13 +239,14 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15px;
-  margin: 0 30px;
+  width: 1rem;
+  margin: 0 2rem;
   font-size: 1.2em;
   color: #909090;
 }
 .bullet-list__text {
-  font-size: 1.1em;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .restaurant {
