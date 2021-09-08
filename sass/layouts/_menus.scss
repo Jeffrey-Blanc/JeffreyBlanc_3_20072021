@@ -37,20 +37,23 @@
     @include parameter_flex($direction, space-between, $align-items);
     background: #FFF;
     border-radius: 1rem;
-    margin: 10px 0;
+    margin: 1rem 0;
     box-shadow: 0px 3px 10px darken($color-gray, 20%);
 }
 
 .cardName {
-    padding: 10px 10px;
+    padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     &__title {
-        font-size: 1rem;
+        font-size: 1.1rem;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
     }
     &__text {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
@@ -61,7 +64,8 @@
     @include parameter_flex($direction, $justify-content, flex-end);
     &__price {
     align-self: flex-end;
-    padding: 10px 10px;
+    padding: 1rem;
+    font-weight: bold;
     }
     &--check {
         @include parameter_flex($direction, center, center);

@@ -136,21 +136,24 @@ li {
   justify-content: space-between;
   background: #FFF;
   border-radius: 1rem;
-  margin: 10px 0;
+  margin: 1rem 0;
   box-shadow: 0px 3px 10px #c3c3c3;
 }
 
 .cardName {
-  padding: 10px 10px;
+  padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .cardName__title {
-  font-size: 1rem;
+  font-size: 1.1rem;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 .cardName__text {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -162,7 +165,8 @@ li {
 }
 .cardInformation__price {
   align-self: flex-end;
-  padding: 10px 10px;
+  padding: 1rem;
+  font-weight: bold;
 }
 .cardInformation--check {
   display: flex;
