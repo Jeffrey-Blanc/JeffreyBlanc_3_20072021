@@ -135,13 +135,25 @@ li {
   display: flex;
   justify-content: space-between;
   background: #FFF;
-  border-radius: 6px;
+  border-radius: 1rem;
   margin: 10px 0;
   box-shadow: 0px 3px 10px #c3c3c3;
 }
 
 .cardName {
   padding: 10px 10px;
+}
+.cardName__title {
+  font-size: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.cardName__text {
+  font-size: 0.85rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .cardInformation {
@@ -161,7 +173,7 @@ li {
   background: #99E2D0;
   color: white;
   font-size: 1.2em;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 1rem 1rem 0;
 }
 
 .nav {
