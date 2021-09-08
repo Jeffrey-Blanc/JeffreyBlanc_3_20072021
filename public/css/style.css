@@ -319,14 +319,18 @@ li {
   margin: 5px 0;
 }
 .footer .fas {
-  margin-right: 5px;
-  width: 1.2em;
+  margin-right: 0.5rem;
+  width: 1rem;
   font-size: 0.7em;
 }
 .footer__title {
   font-family: "Shrikhand", sans-serif;
   font-weight: normal;
   font-size: 1em;
+}
+
+.fas.fa-hands-helping {
+  transform: rotate(-10deg);
 }
 
 /*# sourceMappingURL=style.css.map */

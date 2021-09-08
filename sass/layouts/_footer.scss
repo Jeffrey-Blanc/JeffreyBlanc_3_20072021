@@ -6,8 +6,8 @@
     margin: 5px 0;
   }
   .fas {
-    margin-right: 5px;
-    width: 1.2em;
+    margin-right: 0.5rem;
+    width: 1rem;
     font-size: 0.7em;
   }
   &__title {
@@ -15,4 +15,8 @@
     font-weight: normal;
     font-size: 1em;
   }
+}
+
+.fas.fa-hands-helping {
+  transform: rotate(-10deg);
 }
