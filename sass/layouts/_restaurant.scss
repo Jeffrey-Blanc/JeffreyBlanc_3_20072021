@@ -2,21 +2,43 @@
   padding: 20px 20px;
   background: $color-gray;
   &__title {
-    margin: 10px 0;
+    // margin: 10px 0;
+    max-width: 1400px;
+    margin: auto;
   }
+}
+
+.container_cards_restaurant {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  // flex-direction: initial;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (min-width: 700px) {
+  .container_cards_restaurant{
+    flex-direction: row;
+  } 
 }
 
 .link-card {
   display: flex;
+  width: 100%;
   margin: 1.5em 0;
   border-radius: 15px;
   box-shadow: 0px 3px 10px darken($color-gray, 20%);
+}
+@media screen and (min-width: 700px) {
+  .link-card{
+    width: 45%;
+  } 
 }
 
 .figure-card {
   position: relative;
   @include parameter_flex(column, $justify-content, $align-items);
-  margin: auto;
+  // margin: auto;
   width: 100%;
   &__img {
     /*width: 100%;*/
