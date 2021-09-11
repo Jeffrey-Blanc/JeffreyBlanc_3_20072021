@@ -21,15 +21,35 @@
     }
 }
 
+.container_cards_menu {
+    display: flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    padding: 15px 20px;
+}
+@media screen and (min-width: 700px) {
+    .container_cards_menu{
+        flex-direction: row;
+        align-self: center;
+    }
+}
 
 .cardMenu {
-    padding: 15px 20px;
+    width: 100%;
     & > hr {
     width: 13%;
     height: 0.3rem;
     background: $color-tertiary;
     border: none;
     margin: 5px 0;
+    }
+}
+@media screen and (min-width: 700px) {
+    .cardMenu{
+        width: 45%;
     }
 }
 
