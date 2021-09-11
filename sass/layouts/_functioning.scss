@@ -1,11 +1,24 @@
 .functioning {
   padding: 20px 20px;
+  &__title{
+    max-width: 1400px;
+    margin: auto;
+  }
 }
 
 .functioning-list{
   @include parameter_flex(column, center, center);
   margin: 10px 15px;
   font-size: 1.2em;
+  max-width: 1400px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 700px) {
+  .functioning-list{
+      flex-direction: row;
+      justify-content: space-between;
+  }
 }
 
 .bullet-list{
@@ -53,5 +66,10 @@
   &__text {
     font-size: 1.2rem;
     font-weight: 600;
+  }
+}
+@media screen and (min-width: 700px) {
+  .bullet-list{
+      width: 45%;
   }
 }

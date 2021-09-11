@@ -201,6 +201,10 @@ li {
 .functioning {
   padding: 20px 20px;
 }
+.functioning__title {
+  max-width: 1400px;
+  margin: auto;
+}
 
 .functioning-list {
   display: flex;
@@ -209,8 +213,17 @@ li {
   align-items: center;
   margin: 10px 15px;
   font-size: 1.2em;
+  max-width: 1400px;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
+@media screen and (min-width: 700px) {
+  .functioning-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 .bullet-list {
   display: flex;
   align-items: center;
@@ -265,6 +278,11 @@ li {
   font-weight: 600;
 }
 
+@media screen and (min-width: 700px) {
+  .bullet-list {
+    width: 45%;
+  }
+}
 .restaurant {
   padding: 20px 20px;
   background: #f6f6f6;
