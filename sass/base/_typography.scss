@@ -24,7 +24,8 @@ li {
 
 .fa-heart:hover::before {
   background: -webkit-linear-gradient(60deg, #FF79DA 10%, #9356DC 95%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
