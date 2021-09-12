@@ -65,6 +65,14 @@
             animation-delay: 200ms * $i;
         }
     }
+    &:hover .fa-check-circle {
+        transform: rotate(360deg);
+    }
+}
+
+.fa-check-circle {
+    transform: rotate(90deg);
+    transition: transform 200ms ease-in-out;
 }
 
 @keyframes anim_cardList {

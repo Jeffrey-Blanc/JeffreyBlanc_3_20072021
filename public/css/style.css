@@ -195,6 +195,14 @@ li {
 .cardList--10 {
   animation-delay: 2000ms;
 }
+.cardList:hover .fa-check-circle {
+  transform: rotate(360deg);
+}
+
+.fa-check-circle {
+  transform: rotate(90deg);
+  transition: transform 200ms ease-in-out;
+}
 
 @keyframes anim_cardList {
   0% {
