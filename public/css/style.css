@@ -41,7 +41,11 @@ li {
   border: none;
   border-radius: 30px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  box-shadow: 0 0 1rem #c3c3c3;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.btn:hover {
+  filter: brightness(1.1);
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.3);
 }
 .btn--flattened {
   width: 50%;
