@@ -198,6 +198,7 @@ li {
   background: #FFF;
   border-radius: 1rem;
   margin: 1rem 0;
+  overflow: hidden;
   box-shadow: 0px 3px 10px #c3c3c3;
   animation: anim_cardList 1500ms backwards cubic-bezier(0.25, 0.1, 0.61, 1);
 }
@@ -231,10 +232,12 @@ li {
 .cardList--10 {
   animation-delay: 2000ms;
 }
+.cardList:hover .cardInformation__price {
+  transform: translate(-80px, 0px);
+}
 .cardList:hover .cardInformation--check {
   transform: translateX(0%);
   opacity: 1;
-  width: 5rem;
 }
 .cardList:hover .fa-check-circle {
   transform: rotate(360deg);
@@ -276,18 +279,21 @@ li {
 
 .cardInformation {
   display: flex;
-  align-items: flex-end;
+  align-items: "normal";
 }
 .cardInformation__price {
   align-self: flex-end;
   padding: 1rem;
+  position: relative;
+  left: 80px;
   font-weight: bold;
+  transition: transform 650ms ease-in-out;
 }
 .cardInformation--check {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 0rem;
+  width: 5rem;
   height: 100%;
   background: #99E2D0;
   color: white;

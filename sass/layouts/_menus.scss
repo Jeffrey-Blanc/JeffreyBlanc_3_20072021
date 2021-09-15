@@ -58,6 +58,7 @@
     background: #FFF;
     border-radius: 1rem;
     margin: 1rem 0;
+    overflow: hidden;
     box-shadow: 0px 3px 10px darken($color-gray, 20%);
     animation: anim_cardList 1500ms backwards cubic-bezier(.25,.1,.61,1);
     @for $i from 1 through 10 {
@@ -65,10 +66,12 @@
             animation-delay: 200ms * $i;
         }
     }
+    &:hover .cardInformation__price{
+        transform: translate(-80px, 0px);
+    }
     &:hover .cardInformation--check{
         transform: translateX(0%);
         opacity: 1;
-        width: 5rem;
     }
     &:hover .fa-check-circle {
         transform: rotate(360deg);
@@ -91,7 +94,6 @@
     }
 }
 
-
 .cardName {
     padding: 1rem;
     white-space: nowrap;
@@ -112,15 +114,18 @@
 }
 
 .cardInformation {
-    @include parameter_flex($direction, $justify-content, flex-end);
+    @include parameter_flex($direction, $justify-content, $align-items);
     &__price {
     align-self: flex-end;
     padding: 1rem;
+    position: relative;
+    left: 80px;
     font-weight: bold;
+    transition: transform 650ms ease-in-out;
     }
     &--check {
         @include parameter_flex($direction, center, center);
-        width: 0rem;
+        width: 5rem;
         height: 100%;
         background: $color-tertiary;
         color: white;
