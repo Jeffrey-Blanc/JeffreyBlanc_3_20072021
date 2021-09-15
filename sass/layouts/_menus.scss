@@ -34,6 +34,7 @@
     .container_cards_menu{
         flex-direction: row;
         align-self: center;
+        align-items: flex-start;
     }
 }
 
@@ -46,10 +47,18 @@
     border: none;
     margin: 5px 0;
     }
+    &--center{
+        width: 100%;
+        @include parameter_flex($direction, center, $align-items);
+        align-self: center;
+    }
 }
 @media screen and (min-width: 700px) {
     .cardMenu{
         width: 45%;
+        &--center{
+            width: 45%;
+        }
     }
 }
 
