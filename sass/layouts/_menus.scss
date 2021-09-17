@@ -69,7 +69,7 @@
     margin: 1rem 0;
     overflow: hidden;
     box-shadow: 0px 3px 10px darken($color-gray, 20%);
-    animation: anim_cardList 1500ms backwards cubic-bezier(.25,.1,.61,1);
+    animation: anim_cardList 1000ms backwards cubic-bezier(.25,.1,.61,1);
     @for $i from 1 through 10 {
         &--#{$i}  {
             animation-delay: 200ms * $i;
@@ -96,10 +96,10 @@
 
 @keyframes anim_cardList {
     0% {
-        transform: scaleY(0);
+        opacity: 0;
     }
     100% {
-        transform: scaleY(1.0);
+        opacity: 1;
     }
 }
 
