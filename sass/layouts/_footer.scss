@@ -14,7 +14,14 @@
     font-family: $font_logo_title, sans-serif;
     font-weight: normal;
     font-size: 1em;
+    max-width: 1400px;
+    margin: auto;
   }
+}
+
+.footer_conteneurList {
+  max-width: 1400px;
+  margin: auto;
 }
 
 .fas.fa-hands-helping {
