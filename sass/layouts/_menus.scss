@@ -77,6 +77,7 @@
     margin: 1rem 0;
     overflow: hidden;
     box-shadow: 0px 3px 10px darken($color-gray, 20%);
+    cursor: pointer;
     animation: anim_cardList 1000ms backwards cubic-bezier(.25,.1,.61,1);
     @for $i from 1 through 10 {
         &--#{$i}  {
