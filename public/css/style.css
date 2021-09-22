@@ -189,6 +189,7 @@ li {
   max-width: 1400px;
   align-self: center;
   width: 100%;
+  margin: auto;
 }
 .menu_title__icon {
   margin: 0 0 0 auto;
@@ -202,6 +203,7 @@ li {
   justify-content: space-between;
   align-items: center;
   max-width: 1400px;
+  margin: auto;
   padding: 15px 20px;
 }
 
@@ -556,11 +558,13 @@ li {
   font-size: 1em;
   max-width: 1400px;
   margin: auto;
+  padding: 0 20px;
 }
 
 .footer_conteneurList {
   max-width: 1400px;
   margin: auto;
+  padding: 0 20px;
 }
 
 .fas.fa-hands-helping {

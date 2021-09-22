@@ -18,6 +18,7 @@
     max-width: 1400px;
     align-self: center;
     width: 100%;
+    margin: auto;
     &__icon {
         margin: 0 0 0 auto;
         cursor: pointer;
@@ -31,6 +32,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1400px;
+    margin: auto;
     padding: 15px 20px;
 }
 @media screen and (min-width: 700px) {
