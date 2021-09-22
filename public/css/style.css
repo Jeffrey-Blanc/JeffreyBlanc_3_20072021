@@ -113,7 +113,7 @@ li {
   }
   100% {
     opacity: 0;
-    z-index: 0;
+    z-index: -9;
   }
 }
 .header {
