@@ -17,7 +17,6 @@
 @media screen and (min-width: 700px) {
   .functioning-list{
       flex-direction: row;
-      justify-content: space-between;
   }
 }
 
@@ -72,5 +71,6 @@
   .bullet-list{
       width: 45%;
       min-width: 310px;
+      margin: 1rem;
   }
 }
